@@ -1,0 +1,55 @@
+#include "SpriteDef.h"
+#include "Config.h"
+
+SpriteDef::SpriteDef(){
+	modulo[0].id =0;
+	modulo[0].x=0;
+	modulo[0].y=0;
+	modulo[0].w=64;
+	modulo[0].h=64;
+	modulo[1].id=1;
+	modulo[1].x=0;
+	modulo[1].y=0;
+	modulo[1].w=WIDTH_SCREEN;
+	modulo[1].h=HEIGHT_SCREEN;
+	modulo[2].id=2;
+	modulo[2].x=0;
+	modulo[2].y=0;
+	modulo[2].w=54;
+	modulo[2].h=61;
+	modulo[3].id=3;
+	modulo[3].x=8;
+	modulo[3].y=24;
+	modulo[3].w=306;
+	modulo[3].h=42;
+	modulo[4].id=4;
+	modulo[4].x=8;
+	modulo[4].y=66;
+	modulo[4].w=159;
+	modulo[4].h=28;
+	modulo[5].id=5;
+	modulo[5].x=8;
+	modulo[5].y=126;
+	modulo[5].w=70;
+	modulo[5].h=25;
+	modulo[6].id=6;
+	modulo[6].x=8;
+	modulo[6].y=166;
+	modulo[6].w=570;
+	modulo[6].h=25;
+	modulo[7].id=7;
+	modulo[7].x=123;
+	modulo[7].y=128;
+	modulo[7].w=54;
+	modulo[7].h=24;
+	modulo[8].id=8;
+	modulo[8].x=123;
+	modulo[8].y=169;
+	modulo[8].w=54;
+	modulo[8].h=24;
+	modulo[9].id=MODULO_BALAS_BALA1;
+	modulo[9].x=0;
+	modulo[9].y=0;
+	modulo[9].w=5;
+	modulos[9].h=5;
+}
